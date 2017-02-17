@@ -655,6 +655,7 @@ h6,
 }
 #features6-1a P {
   color: #ffffff;
+  text-align: left;
 }
 
 #menu-15 .hide-buttons .nav-btn {
@@ -895,13 +896,75 @@ h6,
   color: #ffffff;
 }
 
-#msg-box8-1w .mbr-section-title,
-#msg-box8-1w p {
-  color: #fff;
+#menu-15 .hide-buttons .nav-btn {
+  display: none !important;
 }
-#msg-box8-1w .lead {
+#menu-15 .navbar-caption {
   color: #ffffff;
 }
+#menu-15 .navbar-toggler {
+  color: #ffffff;
+}
+#menu-15 .link,
+#menu-15 .dropdown-item {
+  color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+}
+#menu-15 .link {
+  font-size: 0.85rem;
+}
+#menu-15 .dropdown-item,
+#menu-15 .nav-dropdown-sm .link {
+  font-size: 0.921rem;
+}
+#menu-15 .link:hover,
+#menu-15 .dropdown-item:hover,
+#menu-15 .link:focus,
+#menu-15 .dropdown-item:focus {
+  color: #c0a375;
+}
+#menu-15 .link[aria-expanded="true"],
+#menu-15 .dropdown-menu {
+  background: #000000;
+}
+#menu-15 .nav-dropdown-sm .link:focus,
+#menu-15 .nav-dropdown-sm .link:hover,
+#menu-15 .nav-dropdown-sm .dropdown-item:focus,
+#menu-15 .nav-dropdown-sm .dropdown-item:hover {
+  background: #000000!important;
+}
+#menu-15 .navbar,
+#menu-15 .nav-dropdown-sm,
+#menu-15 .nav-dropdown-sm .link[aria-expanded="true"],
+#menu-15 .nav-dropdown-sm .dropdown-menu {
+  background: #000000;
+}
+#menu-15 .bg-color.transparent .link {
+  color: #ffffff;
+  transition: none;
+}
+#menu-15 .bg-color.transparent.opened .link {
+  transition: color 0.2s ease-in-out;
+}
+#menu-15 .bg-color.transparent.opened .link:hover,
+#menu-15 .bg-color.transparent.opened .link:focus {
+  color: #c0a375;
+}
+#menu-15 .link[aria-expanded="true"],
+#menu-15 .dropdown-item[aria-expanded="true"] {
+  color: #c0a375!important;
+}
+#menu-15.mbr-navbar--stuck .mbr-navbar__section {
+  background: #2c2c2c;
+}
+#menu-15 .mbr-navbar__hamburger {
+  color: #ffffff;
+}
+#menu-15 .close-icon::before,
+#menu-15 .close-icon::after {
+  background-color: #ffffff;
+}
+
 #menu-15 .hide-buttons .nav-btn {
   display: none !important;
 }
@@ -975,6 +1038,13 @@ h6,
   text-align: center;
 }
 #header3-1u H3 {
+  color: #ffffff;
+}
+#msg-box8-1w .mbr-section-title,
+#msg-box8-1w p {
+  color: #fff;
+}
+#msg-box8-1w .lead {
   color: #ffffff;
 }
 

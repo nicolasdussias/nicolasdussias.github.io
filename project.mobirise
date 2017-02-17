@@ -2,7 +2,7 @@
   "settings": {
     "currentPage": "index.html",
     "versionFirst": "3.8.3",
-    "uniqCompNum": 69,
+    "uniqCompNum": 70,
     "versionPublish": "3.11.1",
     "name": "My Site",
     "theme": {
@@ -23,7 +23,7 @@
         "isScrollToTopButton": false
       }
     },
-    "path": "file:///D:",
+    "path": "file:///E:",
     "screenshot": "screenshot.png"
   },
   "pages": {
@@ -107,14 +107,14 @@
             "transparent": false,
             "sticky": true,
             "logo": true,
-            "showBrand": false,
+            "showBrand": true,
             "collapsed": true,
             "hideButtons": true
           },
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/signature-384x128-46.png",
+              "src": "@PROJECT_PATH@/assets/images/nicksketch-signature-180x128.png",
               "height": 128,
               "alt": "Mobirise",
               "link": "https://mobirise.com",
@@ -127,19 +127,19 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">MOBIRISE</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"introduction.html\" aria-expanded=\"false\" target=\"_blank\"><span style=\"font-weight: normal;\">INTRODUCTION</span></a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Biography.html\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\"><span style=\"font-weight: normal;\">APPLICATIONS</span></a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"photoshop.html\">Photoshop</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Biography.html\" aria-expanded=\"false\"><span style=\"font-weight: normal;\">CREDENTIALS</span></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Biography.html\" aria-expanded=\"false\"><span style=\"font-weight: normal;\">REFERENCES</span></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"Contacts.html\">CONTACT</a></li>"
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Nicolas Dussias</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"introduction.html\" aria-expanded=\"false\" target=\"_blank\"><span style=\"font-weight: normal;\">INTRODUCTION</span></a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Biography.html\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\"><span style=\"font-weight: normal;\">APPLICATIONS</span></a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"photoshop.html\">Photoshop</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Biography.html\" aria-expanded=\"false\"><span style=\"font-weight: normal;\">CREDENTIALS</span></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Biography.html\" aria-expanded=\"false\"><span style=\"font-weight: normal;\">REFERENCES</span></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"gallery.html\" aria-expanded=\"false\"><span style=\"font-weight: normal;\">GALLERY</span></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"Contacts.html\">CONTACT</a></li>"
         },
         {
           "_name": "footer1",
           "_anchor": "footer1-10",
           "_params": {
-            "paddingTop": 2,
-            "paddingBottom": 2,
+            "paddingTop": "4",
+            "paddingBottom": "1",
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#000000",
+            "bgColor": "#eb6b56",
             "bgColorRadio": true,
             "overlay": true,
             "overlayOpacity": 0.8,
@@ -191,8 +191,8 @@
           "_name": "contacts1",
           "_anchor": "contacts1-1v",
           "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
+            "paddingTop": "1",
+            "paddingBottom": "1",
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
@@ -204,9 +204,13 @@
           },
           "logo": {
             "image": {
-              "src": "@THEME_PATH@/components/_images/logo.png",
+              "src": "@PROJECT_PATH@/assets/images/nicksketch-signature-128x90.png",
               "width": 128,
-              "active": true
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-contacts1",
@@ -214,9 +218,9 @@
               "size": 0
             }
           },
-          "text1": "<font color=\"#7c7c7c\" face=\"Montserrat, sans-serif\" size=\"3\"><span style=\"letter-spacing: -1px; line-height: 20px;\"><b>ADRESS:</b></span></font><br><font color=\"#7c7c7c\" face=\"Montserrat, sans-serif\" size=\"3\"><span style=\"letter-spacing: -1px; line-height: 20px;\"><b>14974 SW 41st lane miami, florida 33185</b></span></font>",
+          "text1": "<font color=\"#7c7c7c\" face=\"Montserrat, sans-serif\" size=\"3\"><span style=\"letter-spacing: -1px; line-height: 20px;\"><b>ADRESS:</b></span></font><br><br>14974 SW 41st Lane<br>Miami, Florida 33185<br>",
           "text2": "<strong>Contacts</strong><br>EMAIL: ndussias@miamiartsstudio.com<br>CELL: 786-458-6948",
-          "text3": "<strong>Links</strong><br>SCHOOL WEBSITE;http://mas.dadeschools.net/<br>CLASS WEBSITE:&nbsp;http://mas.dadeschools.net/pate%20class%20website/index.html"
+          "text3": "<strong>Links</strong><br>School Website<br>Class Website<br><br>"
         }
       ]
     },
@@ -304,14 +308,14 @@
             "transparent": false,
             "sticky": true,
             "logo": true,
-            "showBrand": false,
+            "showBrand": true,
             "collapsed": true,
             "hideButtons": true
           },
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/signature-384x128.jpg",
+              "src": "@PROJECT_PATH@/assets/images/nicksketch-signature-180x128.png",
               "height": 128,
               "alt": "Mobirise",
               "link": "index.html",
@@ -324,25 +328,8 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">MOBIRISE</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"introduction.html\" aria-expanded=\"false\" target=\"_blank\"><span style=\"font-weight: normal;\">INTRODUCTION</span></a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Biography.html\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\"><span style=\"font-weight: normal;\">APPLICATIONS</span></a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"photoshop.html\">Photoshop</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"illustrator.html\">Illustrator</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"illustrator.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Office Suite</a><div class=\"dropdown-menu dropdown-submenu\"><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"word.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Word</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Discussit 6</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"powerpoint.html\" aria-expanded=\"false\">Powerpoint</a></div></div></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Biography.html\" aria-expanded=\"false\"><span style=\"font-weight: normal;\">CREDENTIALS</span></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Biography.html\" aria-expanded=\"false\"><span style=\"font-weight: normal;\">REFERENCES</span></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"Contacts.html\">CONTACT</a></li>"
-        },
-        {
-          "_name": "footer1",
-          "_anchor": "footer1-2",
-          "_params": {
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#000000",
-            "bgColorRadio": true,
-            "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#444444"
-          },
-          "text": ""
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Nicolas Dussias</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"introduction.html\" aria-expanded=\"false\" target=\"_blank\"><span style=\"font-weight: normal;\">INTRODUCTION</span></a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Biography.html\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\"><span style=\"font-weight: normal;\">APPLICATIONS</span></a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"photoshop.html\">Photoshop</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Biography.html\" aria-expanded=\"false\"><span style=\"font-weight: normal;\">CREDENTIALS</span></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Biography.html\" aria-expanded=\"false\"><span style=\"font-weight: normal;\">REFERENCES</span></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"gallery.html\" aria-expanded=\"false\"><span style=\"font-weight: normal;\">GALLERY</span></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"Contacts.html\">CONTACT</a></li>"
         },
         {
           "_tags": [
@@ -397,79 +384,65 @@
           "meta": ""
         },
         {
+          "_inherit": "gallery1",
           "_tags": [
             "Theme"
           ],
-          "_name": "slider3",
+          "_name": "gallery3",
           "_params": {
-            "autoplay": false,
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "timeout": 5,
-            "slides": [
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "images": [
               {
-                "active": true,
-                "image": "@PROJECT_PATH@/assets/images/nicolas-dussias-2000x1333.jpg",
+                "tags": "Awesome",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "overlay": true,
-                "contentAlign": "center",
-                "showTitle": true,
-                "title": "Some of My Work",
-                "showText": true,
-                "text": "Some of my Photoshop pieces.",
-                "showButtons": true,
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"gallery.html\" data-toolbar=\"-mbrBtnMove\">Gallery</a> "
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/bike-small.jpg",
+                "image": "@THEME_PATH@/components/_images/gallery/bike.jpg",
+                "caption": "Type caption here",
+                "active": false
               },
               {
-                "active": false,
-                "image": "@PROJECT_PATH@/assets/images/sights-and-sounds-of-the-sixties-2000x1545.jpg",
+                "tags": "Responsive",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "overlay": true,
-                "contentAlign": "center",
-                "showTitle": true,
-                "title": "Some of My Work",
-                "showText": true,
-                "text": "Some of my Photoshop pieces.",
-                "showButtons": false,
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/code-man-small.jpg",
+                "image": "@THEME_PATH@/components/_images/gallery/code-man.jpg",
+                "caption": "Type caption here"
               },
               {
-                "active": false,
-                "image": "@PROJECT_PATH@/assets/images/dvd-label-electric-inferno-2000x2000.jpg",
+                "tags": "Creative",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "overlay": true,
-                "contentAlign": "center",
-                "showTitle": true,
-                "title": "Some of My Work",
-                "showText": true,
-                "text": "Some of my Photoshop pieces.",
-                "showButtons": false,
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/coworkers-small.jpg",
+                "image": "@THEME_PATH@/components/_images/gallery/coworkers.jpg",
+                "caption": "Type caption here"
               },
               {
-                "active": false,
-                "image": "@PROJECT_PATH@/assets/images/mdcps-logo-nicolas-dussias-2000x1428.jpg",
+                "tags": "Animated",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "overlay": true,
-                "contentAlign": "center",
-                "showTitle": true,
-                "title": "Some of My Work",
-                "showText": true,
-                "text": "Some of my Photoshop pieces.",
-                "showButtons": false,
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/desktop-small.jpg",
+                "image": "@THEME_PATH@/components/_images/gallery/desktop.jpg",
+                "caption": "Type caption here",
+                "active": true
               }
             ],
-            "fullScreen": true,
-            "bgColor": "#fff",
-            "showBullets": false
+            "spacing": 1,
+            "showText": false,
+            "filter": false,
+            "bgColor": "#000000",
+            "filterBgColor": true,
+            "fullWidth": true,
+            "showBullets": true
           },
-          "_anchor": "slider3-1l",
-          "articleLayout": false
+          "_anchor": "gallery3-1x",
+          "articleLayout": false,
+          "allItem": "All"
         },
         {
           "_tags": [
@@ -478,8 +451,8 @@
           "_name": "contacts1",
           "_anchor": "contacts1-1v",
           "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
+            "paddingTop": "1",
+            "paddingBottom": "1",
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
@@ -491,9 +464,13 @@
           },
           "logo": {
             "image": {
-              "src": "@THEME_PATH@/components/_images/logo.png",
+              "src": "@PROJECT_PATH@/assets/images/nicksketch-signature-128x90.png",
               "width": 128,
-              "active": true
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-contacts1",
@@ -501,9 +478,29 @@
               "size": 0
             }
           },
-          "text1": "<font color=\"#7c7c7c\" face=\"Montserrat, sans-serif\" size=\"3\"><span style=\"letter-spacing: -1px; line-height: 20px;\"><b>ADRESS:</b></span></font><br><font color=\"#7c7c7c\" face=\"Montserrat, sans-serif\" size=\"3\"><span style=\"letter-spacing: -1px; line-height: 20px;\"><b>14974 SW 41st lane miami, florida 33185</b></span></font>",
+          "text1": "<font color=\"#7c7c7c\" face=\"Montserrat, sans-serif\" size=\"3\"><span style=\"letter-spacing: -1px; line-height: 20px;\"><b>ADRESS:</b></span></font><br><br>14974 SW 41st Lane<br>Miami, Florida 33185<br>",
           "text2": "<strong>Contacts</strong><br>EMAIL: ndussias@miamiartsstudio.com<br>CELL: 786-458-6948",
-          "text3": "<strong>Links</strong><br>SCHOOL WEBSITE;http://mas.dadeschools.net/<br>CLASS WEBSITE:&nbsp;http://mas.dadeschools.net/pate%20class%20website/index.html"
+          "text3": "<strong>Links</strong><br>School Website<br>Class Website<br><br>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-w",
+          "_params": {
+            "paddingTop": "4",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#eb6b56",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": ""
         }
       ]
     },
@@ -590,14 +587,14 @@
             "transparent": false,
             "sticky": true,
             "logo": true,
-            "showBrand": false,
+            "showBrand": true,
             "collapsed": true,
             "hideButtons": true
           },
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/signature-384x128.png",
+              "src": "@PROJECT_PATH@/assets/images/nicksketch-signature-180x128.png",
               "height": 128,
               "alt": "Mobirise",
               "link": "Home.html",
@@ -610,19 +607,19 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">MOBIRISE</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"introduction.html\" aria-expanded=\"false\" target=\"_blank\"><span style=\"font-weight: normal;\">INTRODUCTION</span></a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Biography.html\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\"><span style=\"font-weight: normal;\">APPLICATIONS</span></a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"photoshop.html\">Photoshop</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"illustrator.html\">Illustrator</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"illustrator.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Office Suite</a><div class=\"dropdown-menu dropdown-submenu\"><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"word.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Word</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Discussit 6</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"powerpoint.html\" aria-expanded=\"false\">Powerpoint</a></div></div></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Biography.html\" aria-expanded=\"false\"><span style=\"font-weight: normal;\">CREDENTIALS</span></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Biography.html\" aria-expanded=\"false\"><span style=\"font-weight: normal;\">REFERENCES</span></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"Contacts.html\">CONTACT</a></li>"
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Nicolas Dussias</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"introduction.html\" aria-expanded=\"false\" target=\"_blank\"><span style=\"font-weight: normal;\">INTRODUCTION</span></a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Biography.html\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\"><span style=\"font-weight: normal;\">APPLICATIONS</span></a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"photoshop.html\">Photoshop</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Biography.html\" aria-expanded=\"false\"><span style=\"font-weight: normal;\">CREDENTIALS</span></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Biography.html\" aria-expanded=\"false\"><span style=\"font-weight: normal;\">REFERENCES</span></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"gallery.html\" aria-expanded=\"false\"><span style=\"font-weight: normal;\">GALLERY</span></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"Contacts.html\">CONTACT</a></li>"
         },
         {
           "_name": "footer1",
           "_anchor": "footer1-16",
           "_params": {
-            "paddingTop": 2,
-            "paddingBottom": 2,
+            "paddingTop": "4",
+            "paddingBottom": "1",
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#000000",
+            "bgColor": "#eb6b56",
             "bgColorRadio": true,
             "overlay": true,
             "overlayOpacity": 0.8,
@@ -651,7 +648,7 @@
             "paddingBottom": "3",
             "parallax": true,
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2-2000x1333.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1333.jpg",
             "bgColor": "#fff",
             "bgColorRadio": false,
             "bgVideo": {
@@ -670,7 +667,7 @@
             "image": {
               "active": true,
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/nicksketch-1-1400x991.png",
+              "src": "@PROJECT_PATH@/assets/images/nicksketch-png-1400x991.png",
               "link": "",
               "alt": "",
               "title": "",
@@ -728,7 +725,8 @@
               "color": "#ffffff"
             },
             "P": {
-              "color": "#ffffff"
+              "color": "#ffffff",
+              "text-align": "left"
             }
           },
           "_anchor": "features6-1a",
@@ -848,110 +846,14 @@
           "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>"
         },
         {
-          "_inherit": "gallery1",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "gallery2",
-          "_params": {
-            "paddingTop": 4,
-            "paddingBottom": 4,
-            "images": [
-              {
-                "tags": "Awesome",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@THEME_PATH@/components/_images/gallery/bike-small.jpg",
-                "image": "@THEME_PATH@/components/_images/gallery/bike.jpg",
-                "caption": "Type caption here",
-                "active": true
-              },
-              {
-                "tags": "Responsive",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@THEME_PATH@/components/_images/gallery/code-man-small.jpg",
-                "image": "@THEME_PATH@/components/_images/gallery/code-man.jpg",
-                "caption": "Type caption here"
-              },
-              {
-                "tags": "Creative",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@THEME_PATH@/components/_images/gallery/coworkers-small.jpg",
-                "image": "@THEME_PATH@/components/_images/gallery/coworkers.jpg",
-                "caption": "Type caption here"
-              },
-              {
-                "tags": "Animated",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@THEME_PATH@/components/_images/gallery/desktop-small.jpg",
-                "image": "@THEME_PATH@/components/_images/gallery/desktop.jpg",
-                "caption": "Type caption here"
-              },
-              {
-                "tags": "Awesome",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@THEME_PATH@/components/_images/gallery/room-laptop-small.jpg",
-                "image": "@THEME_PATH@/components/_images/gallery/room-laptop.jpg",
-                "caption": "Type caption here"
-              },
-              {
-                "tags": "Beautiful",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@THEME_PATH@/components/_images/gallery/table-small.jpg",
-                "image": "@THEME_PATH@/components/_images/gallery/table.jpg",
-                "caption": "Type caption here"
-              },
-              {
-                "tags": "Responsive",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@THEME_PATH@/components/_images/gallery/windows-books-small.jpg",
-                "image": "@THEME_PATH@/components/_images/gallery/windows-books.jpg",
-                "caption": "Type caption here"
-              },
-              {
-                "tags": "Animated",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@THEME_PATH@/components/_images/gallery/working-area-small.jpg",
-                "image": "@THEME_PATH@/components/_images/gallery/working-area.jpg",
-                "caption": "Type caption here"
-              }
-            ],
-            "spacing": "1",
-            "showText": false,
-            "filter": false,
-            "bgColor": "#1e1f20",
-            "filterBgColor": false,
-            "fullWidth": true,
-            "showBullets": true
-          },
-          "_anchor": "gallery2-1i",
-          "articleLayout": false,
-          "allItem": "All"
-        },
-        {
           "_tags": [
             "Theme"
           ],
           "_name": "contacts1",
           "_anchor": "contacts1-1v",
           "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
+            "paddingTop": "1",
+            "paddingBottom": "1",
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
@@ -963,9 +865,13 @@
           },
           "logo": {
             "image": {
-              "src": "@THEME_PATH@/components/_images/logo.png",
+              "src": "@PROJECT_PATH@/assets/images/nicksketch-signature-128x90.png",
               "width": 128,
-              "active": true
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-contacts1",
@@ -973,9 +879,9 @@
               "size": 0
             }
           },
-          "text1": "<font color=\"#7c7c7c\" face=\"Montserrat, sans-serif\" size=\"3\"><span style=\"letter-spacing: -1px; line-height: 20px;\"><b>ADRESS:</b></span></font><br><font color=\"#7c7c7c\" face=\"Montserrat, sans-serif\" size=\"3\"><span style=\"letter-spacing: -1px; line-height: 20px;\"><b>14974 SW 41st lane miami, florida 33185</b></span></font>",
+          "text1": "<font color=\"#7c7c7c\" face=\"Montserrat, sans-serif\" size=\"3\"><span style=\"letter-spacing: -1px; line-height: 20px;\"><b>ADRESS:</b></span></font><br><br>14974 SW 41st Lane<br>Miami, Florida 33185<br>",
           "text2": "<strong>Contacts</strong><br>EMAIL: ndussias@miamiartsstudio.com<br>CELL: 786-458-6948",
-          "text3": "<strong>Links</strong><br>SCHOOL WEBSITE;http://mas.dadeschools.net/<br>CLASS WEBSITE:&nbsp;http://mas.dadeschools.net/pate%20class%20website/index.html"
+          "text3": "<strong>Links</strong><br>School Website<br>Class Website<br><br>"
         }
       ]
     },
@@ -1060,14 +966,14 @@
             "transparent": false,
             "sticky": true,
             "logo": true,
-            "showBrand": false,
+            "showBrand": true,
             "collapsed": true,
             "hideButtons": true
           },
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/signature-384x128.png",
+              "src": "@PROJECT_PATH@/assets/images/nicksketch-signature-180x128.png",
               "height": 128,
               "alt": "Mobirise",
               "link": "Home.html",
@@ -1080,8 +986,8 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">MOBIRISE</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"introduction.html\" aria-expanded=\"false\" target=\"_blank\"><span style=\"font-weight: normal;\">INTRODUCTION</span></a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Biography.html\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\"><span style=\"font-weight: normal;\">APPLICATIONS</span></a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"photoshop.html\">Photoshop</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"illustrator.html\">Illustrator</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"illustrator.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Office Suite</a><div class=\"dropdown-menu dropdown-submenu\"><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"word.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Word</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Discussit 6</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"powerpoint.html\" aria-expanded=\"false\">Powerpoint</a></div></div></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Biography.html\" aria-expanded=\"false\"><span style=\"font-weight: normal;\">CREDENTIALS</span></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Biography.html\" aria-expanded=\"false\"><span style=\"font-weight: normal;\">REFERENCES</span></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"Contacts.html\">CONTACT</a></li>"
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Nicolas Dussias</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"introduction.html\" aria-expanded=\"false\" target=\"_blank\"><span style=\"font-weight: normal;\">INTRODUCTION</span></a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Biography.html\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\"><span style=\"font-weight: normal;\">APPLICATIONS</span></a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"photoshop.html\">Photoshop</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Biography.html\" aria-expanded=\"false\"><span style=\"font-weight: normal;\">CREDENTIALS</span></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Biography.html\" aria-expanded=\"false\"><span style=\"font-weight: normal;\">REFERENCES</span></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"gallery.html\" aria-expanded=\"false\"><span style=\"font-weight: normal;\">GALLERY</span></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"Contacts.html\">CONTACT</a></li>"
         },
         {
           "_tags": [
@@ -1278,8 +1184,8 @@
           "_name": "contacts1",
           "_anchor": "contacts1-1v",
           "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
+            "paddingTop": "1",
+            "paddingBottom": "1",
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
@@ -1291,9 +1197,13 @@
           },
           "logo": {
             "image": {
-              "src": "@THEME_PATH@/components/_images/logo.png",
+              "src": "@PROJECT_PATH@/assets/images/nicksketch-signature-128x90.png",
               "width": 128,
-              "active": true
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-contacts1",
@@ -1301,20 +1211,20 @@
               "size": 0
             }
           },
-          "text1": "<font color=\"#7c7c7c\" face=\"Montserrat, sans-serif\" size=\"3\"><span style=\"letter-spacing: -1px; line-height: 20px;\"><b>ADRESS:</b></span></font><br><font color=\"#7c7c7c\" face=\"Montserrat, sans-serif\" size=\"3\"><span style=\"letter-spacing: -1px; line-height: 20px;\"><b>14974 SW 41st lane miami, florida 33185</b></span></font>",
+          "text1": "<font color=\"#7c7c7c\" face=\"Montserrat, sans-serif\" size=\"3\"><span style=\"letter-spacing: -1px; line-height: 20px;\"><b>ADRESS:</b></span></font><br><br>14974 SW 41st Lane<br>Miami, Florida 33185<br>",
           "text2": "<strong>Contacts</strong><br>EMAIL: ndussias@miamiartsstudio.com<br>CELL: 786-458-6948",
-          "text3": "<strong>Links</strong><br>SCHOOL WEBSITE;http://mas.dadeschools.net/<br>CLASS WEBSITE:&nbsp;http://mas.dadeschools.net/pate%20class%20website/index.html"
+          "text3": "<strong>Links</strong><br>School Website<br>Class Website<br><br>"
         },
         {
           "_name": "footer1",
           "_anchor": "footer1-6",
           "_params": {
-            "paddingTop": 2,
-            "paddingBottom": 2,
+            "paddingTop": "4",
+            "paddingBottom": "1",
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#323232",
+            "bgColor": "#eb6b56",
             "bgColorRadio": true,
             "overlay": true,
             "overlayOpacity": 0.8,
@@ -1407,14 +1317,14 @@
             "transparent": false,
             "sticky": true,
             "logo": true,
-            "showBrand": false,
+            "showBrand": true,
             "collapsed": true,
             "hideButtons": true
           },
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/signature-384x128.png",
+              "src": "@PROJECT_PATH@/assets/images/nicksketch-signature-180x128.png",
               "height": 128,
               "alt": "Mobirise",
               "link": "Home.html",
@@ -1427,8 +1337,8 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">MOBIRISE</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"introduction.html\" aria-expanded=\"false\" target=\"_blank\"><span style=\"font-weight: normal;\">INTRODUCTION</span></a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Biography.html\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\"><span style=\"font-weight: normal;\">APPLICATIONS</span></a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"photoshop.html\">Photoshop</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"illustrator.html\">Illustrator</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"illustrator.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Office Suite</a><div class=\"dropdown-menu dropdown-submenu\"><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"word.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Word</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Discussit 6</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"powerpoint.html\" aria-expanded=\"false\">Powerpoint</a></div></div></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Biography.html\" aria-expanded=\"false\"><span style=\"font-weight: normal;\">CREDENTIALS</span></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Biography.html\" aria-expanded=\"false\"><span style=\"font-weight: normal;\">REFERENCES</span></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"Contacts.html\">CONTACT</a></li>"
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Nicolas Dussias</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"introduction.html\" aria-expanded=\"false\" target=\"_blank\"><span style=\"font-weight: normal;\">INTRODUCTION</span></a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Biography.html\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\"><span style=\"font-weight: normal;\">APPLICATIONS</span></a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"photoshop.html\">Photoshop</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Biography.html\" aria-expanded=\"false\"><span style=\"font-weight: normal;\">CREDENTIALS</span></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Biography.html\" aria-expanded=\"false\"><span style=\"font-weight: normal;\">REFERENCES</span></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"gallery.html\" aria-expanded=\"false\"><span style=\"font-weight: normal;\">GALLERY</span></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"Contacts.html\">CONTACT</a></li>"
         },
         {
           "_tags": [
@@ -1437,12 +1347,12 @@
           "_name": "footer1",
           "_anchor": "footer1-2",
           "_params": {
-            "paddingTop": 2,
-            "paddingBottom": 2,
+            "paddingTop": "4",
+            "paddingBottom": "1",
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#000000",
+            "bgColor": "#eb6b56",
             "bgColorRadio": true,
             "overlay": true,
             "overlayOpacity": 0.8,
@@ -1546,8 +1456,8 @@
           "_name": "contacts1",
           "_anchor": "contacts1-1v",
           "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
+            "paddingTop": "1",
+            "paddingBottom": "1",
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
@@ -1559,9 +1469,13 @@
           },
           "logo": {
             "image": {
-              "src": "@THEME_PATH@/components/_images/logo.png",
+              "src": "@PROJECT_PATH@/assets/images/nicksketch-signature-128x90.png",
               "width": 128,
-              "active": true
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-contacts1",
@@ -1569,9 +1483,9 @@
               "size": 0
             }
           },
-          "text1": "<font color=\"#7c7c7c\" face=\"Montserrat, sans-serif\" size=\"3\"><span style=\"letter-spacing: -1px; line-height: 20px;\"><b>ADRESS:</b></span></font><br><font color=\"#7c7c7c\" face=\"Montserrat, sans-serif\" size=\"3\"><span style=\"letter-spacing: -1px; line-height: 20px;\"><b>14974 SW 41st lane miami, florida 33185</b></span></font>",
+          "text1": "<font color=\"#7c7c7c\" face=\"Montserrat, sans-serif\" size=\"3\"><span style=\"letter-spacing: -1px; line-height: 20px;\"><b>ADRESS:</b></span></font><br><br>14974 SW 41st Lane<br>Miami, Florida 33185<br>",
           "text2": "<strong>Contacts</strong><br>EMAIL: ndussias@miamiartsstudio.com<br>CELL: 786-458-6948",
-          "text3": "<strong>Links</strong><br>SCHOOL WEBSITE;http://mas.dadeschools.net/<br>CLASS WEBSITE:&nbsp;http://mas.dadeschools.net/pate%20class%20website/index.html"
+          "text3": "<strong>Links</strong><br>School Website<br>Class Website<br><br>"
         }
       ]
     },
@@ -1589,12 +1503,12 @@
           "_name": "footer1",
           "_anchor": "footer1-a",
           "_params": {
-            "paddingTop": 2,
-            "paddingBottom": 2,
+            "paddingTop": "4",
+            "paddingBottom": "1",
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#000000",
+            "bgColor": "#eb6b56",
             "bgColorRadio": true,
             "overlay": true,
             "overlayOpacity": 0.8,
@@ -1678,14 +1592,14 @@
             "transparent": false,
             "sticky": true,
             "logo": true,
-            "showBrand": false,
+            "showBrand": true,
             "collapsed": true,
             "hideButtons": true
           },
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/signature-384x128.png",
+              "src": "@PROJECT_PATH@/assets/images/nicksketch-signature-180x128.png",
               "height": 128,
               "alt": "Mobirise",
               "link": "Home.html",
@@ -1698,8 +1612,8 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">MOBIRISE</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"introduction.html\" aria-expanded=\"false\" target=\"_blank\"><span style=\"font-weight: normal;\">INTRODUCTION</span></a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Biography.html\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\"><span style=\"font-weight: normal;\">APPLICATIONS</span></a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"photoshop.html\">Photoshop</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"illustrator.html\">Illustrator</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"illustrator.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Office Suite</a><div class=\"dropdown-menu dropdown-submenu\"><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"word.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Word</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Discussit 6</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"powerpoint.html\" aria-expanded=\"false\">Powerpoint</a></div></div></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Biography.html\" aria-expanded=\"false\"><span style=\"font-weight: normal;\">CREDENTIALS</span></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Biography.html\" aria-expanded=\"false\"><span style=\"font-weight: normal;\">REFERENCES</span></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"Contacts.html\">CONTACT</a></li>"
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Nicolas Dussias</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"introduction.html\" aria-expanded=\"false\" target=\"_blank\"><span style=\"font-weight: normal;\">INTRODUCTION</span></a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Biography.html\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\"><span style=\"font-weight: normal;\">APPLICATIONS</span></a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"photoshop.html\">Photoshop</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Biography.html\" aria-expanded=\"false\"><span style=\"font-weight: normal;\">CREDENTIALS</span></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Biography.html\" aria-expanded=\"false\"><span style=\"font-weight: normal;\">REFERENCES</span></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"gallery.html\" aria-expanded=\"false\"><span style=\"font-weight: normal;\">GALLERY</span></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"Contacts.html\">CONTACT</a></li>"
         },
         {
           "_tags": [
@@ -1760,8 +1674,8 @@
           "_name": "contacts1",
           "_anchor": "contacts1-1v",
           "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
+            "paddingTop": "1",
+            "paddingBottom": "1",
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
@@ -1773,9 +1687,13 @@
           },
           "logo": {
             "image": {
-              "src": "@THEME_PATH@/components/_images/logo.png",
+              "src": "@PROJECT_PATH@/assets/images/nicksketch-signature-128x90.png",
               "width": 128,
-              "active": true
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-contacts1",
@@ -1783,9 +1701,9 @@
               "size": 0
             }
           },
-          "text1": "<font color=\"#7c7c7c\" face=\"Montserrat, sans-serif\" size=\"3\"><span style=\"letter-spacing: -1px; line-height: 20px;\"><b>ADRESS:</b></span></font><br><font color=\"#7c7c7c\" face=\"Montserrat, sans-serif\" size=\"3\"><span style=\"letter-spacing: -1px; line-height: 20px;\"><b>14974 SW 41st lane miami, florida 33185</b></span></font>",
+          "text1": "<font color=\"#7c7c7c\" face=\"Montserrat, sans-serif\" size=\"3\"><span style=\"letter-spacing: -1px; line-height: 20px;\"><b>ADRESS:</b></span></font><br><br>14974 SW 41st Lane<br>Miami, Florida 33185<br>",
           "text2": "<strong>Contacts</strong><br>EMAIL: ndussias@miamiartsstudio.com<br>CELL: 786-458-6948",
-          "text3": "<strong>Links</strong><br>SCHOOL WEBSITE;http://mas.dadeschools.net/<br>CLASS WEBSITE:&nbsp;http://mas.dadeschools.net/pate%20class%20website/index.html"
+          "text3": "<strong>Links</strong><br>School Website<br>Class Website<br><br>"
         }
       ]
     },
@@ -1797,14 +1715,113 @@
       },
       "components": [
         {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff",
+              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
+              "font-family": "'Open Sans', sans-serif"
+            },
+            ".link": {
+              "font-size": "0.85rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.921rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#000000"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#000000!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#000000"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#2c2c2c"
+            },
+            ".mbr-navbar__section": {},
+            ".mbr-navbar__hamburger": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-15",
+          "_params": {
+            "bgColor": "#000000",
+            "fontSize": "0.85",
+            "fontName": {
+              "name": "Open Sans",
+              "url": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
+              "css": "'Open Sans', sans-serif"
+            },
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/nicksketch-signature-180x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "Home.html",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Nicolas Dussias</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"introduction.html\" aria-expanded=\"false\" target=\"_blank\"><span style=\"font-weight: normal;\">INTRODUCTION</span></a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Biography.html\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\"><span style=\"font-weight: normal;\">APPLICATIONS</span></a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"photoshop.html\">Photoshop</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Biography.html\" aria-expanded=\"false\"><span style=\"font-weight: normal;\">CREDENTIALS</span></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Biography.html\" aria-expanded=\"false\"><span style=\"font-weight: normal;\">REFERENCES</span></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"gallery.html\" aria-expanded=\"false\"><span style=\"font-weight: normal;\">GALLERY</span></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"Contacts.html\">CONTACT</a></li>"
+        },
+        {
           "_tags": [
             "Theme"
           ],
           "_name": "contacts1",
           "_anchor": "contacts1-1v",
           "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
+            "paddingTop": "1",
+            "paddingBottom": "1",
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
@@ -1826,9 +1843,9 @@
               "size": 0
             }
           },
-          "text1": "<font color=\"#7c7c7c\" face=\"Montserrat, sans-serif\" size=\"3\"><span style=\"letter-spacing: -1px; line-height: 20px;\"><b>ADRESS:</b></span></font><br><font color=\"#7c7c7c\" face=\"Montserrat, sans-serif\" size=\"3\"><span style=\"letter-spacing: -1px; line-height: 20px;\"><b>14974 SW 41st lane miami, florida 33185</b></span></font>",
+          "text1": "<font color=\"#7c7c7c\" face=\"Montserrat, sans-serif\" size=\"3\"><span style=\"letter-spacing: -1px; line-height: 20px;\"><b>ADRESS:</b></span></font><br><br>14974 SW 41st Lane<br>Miami, Florida 33185<br>",
           "text2": "<strong>Contacts</strong><br>EMAIL: ndussias@miamiartsstudio.com<br>CELL: 786-458-6948",
-          "text3": "<strong>Links</strong><br>SCHOOL WEBSITE;http://mas.dadeschools.net/<br>CLASS WEBSITE:&nbsp;http://mas.dadeschools.net/pate%20class%20website/index.html"
+          "text3": "<strong>Links</strong><br>School Website<br>Class Website<br><br>"
         }
       ]
     },
@@ -1840,86 +1857,15 @@
       },
       "components": [
         {
-          "_styles": {
-            ".mbr-section-title, p": {
-              "color": "#fff"
-            },
-            ".lead": {
-              "color": "#ffffff"
-            }
-          },
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "msg-box8",
-          "_anchor": "msg-box8-1w",
-          "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "parallax": true,
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1125.jpg",
-            "bgColor": "#F2F2F2",
-            "bgColorRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": true,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
-            "showTitle": true,
-            "showText": true,
-            "showButton": false
-          },
-          "title": "Coming Soon!",
-          "text": "More stuff will be here in the near future!",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>"
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "contacts1",
-          "_anchor": "contacts1-1v",
-          "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#000000",
-            "bgColorRadio": true,
-            "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#3C3C3C"
-          },
-          "logo": {
-            "image": {
-              "src": "@THEME_PATH@/components/_images/logo.png",
-              "width": 128,
-              "active": true
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-contacts1",
-              "link": "",
-              "size": 0
-            }
-          },
-          "text1": "<font color=\"#7c7c7c\" face=\"Montserrat, sans-serif\" size=\"3\"><span style=\"letter-spacing: -1px; line-height: 20px;\"><b>ADRESS:</b></span></font><br><font color=\"#7c7c7c\" face=\"Montserrat, sans-serif\" size=\"3\"><span style=\"letter-spacing: -1px; line-height: 20px;\"><b>14974 SW 41st lane miami, florida 33185</b></span></font>",
-          "text2": "<strong>Contacts</strong><br>EMAIL: ndussias@miamiartsstudio.com<br>CELL: 786-458-6948",
-          "text3": "<strong>Links</strong><br>SCHOOL WEBSITE;http://mas.dadeschools.net/<br>CLASS WEBSITE:&nbsp;http://mas.dadeschools.net/pate%20class%20website/index.html"
-        },
-        {
           "_name": "footer1",
           "_anchor": "footer1-l",
           "_params": {
-            "paddingTop": 2,
-            "paddingBottom": 2,
+            "paddingTop": "4",
+            "paddingBottom": "1",
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#000000",
+            "bgColor": "#eb6b56",
             "bgColorRadio": true,
             "overlay": true,
             "overlayOpacity": 0.8,
@@ -2003,14 +1949,14 @@
             "transparent": false,
             "sticky": true,
             "logo": true,
-            "showBrand": false,
+            "showBrand": true,
             "collapsed": true,
             "hideButtons": true
           },
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/signature-384x128.png",
+              "src": "@PROJECT_PATH@/assets/images/nicksketch-signature-180x128.png",
               "height": 128,
               "alt": "Mobirise",
               "link": "Home.html",
@@ -2023,8 +1969,8 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">MOBIRISE</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"introduction.html\" aria-expanded=\"false\" target=\"_blank\"><span style=\"font-weight: normal;\">INTRODUCTION</span></a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Biography.html\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\"><span style=\"font-weight: normal;\">APPLICATIONS</span></a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"photoshop.html\">Photoshop</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"illustrator.html\">Illustrator</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"illustrator.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Office Suite</a><div class=\"dropdown-menu dropdown-submenu\"><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"word.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Word</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Discussit 6</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"powerpoint.html\" aria-expanded=\"false\">Powerpoint</a></div></div></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Biography.html\" aria-expanded=\"false\"><span style=\"font-weight: normal;\">CREDENTIALS</span></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Biography.html\" aria-expanded=\"false\"><span style=\"font-weight: normal;\">REFERENCES</span></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"Contacts.html\">CONTACT</a></li>"
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Nicolas Dussias</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"introduction.html\" aria-expanded=\"false\" target=\"_blank\"><span style=\"font-weight: normal;\">INTRODUCTION</span></a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Biography.html\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\"><span style=\"font-weight: normal;\">APPLICATIONS</span></a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"photoshop.html\">Photoshop</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Biography.html\" aria-expanded=\"false\"><span style=\"font-weight: normal;\">CREDENTIALS</span></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Biography.html\" aria-expanded=\"false\"><span style=\"font-weight: normal;\">REFERENCES</span></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"gallery.html\" aria-expanded=\"false\"><span style=\"font-weight: normal;\">GALLERY</span></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"Contacts.html\">CONTACT</a></li>"
         },
         {
           "_tags": [
@@ -2094,7 +2040,7 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/nicolas-dussiaswebsite-2000x1333-800x533.jpg",
                 "image": "@PROJECT_PATH@/assets/images/nicolas-dussiaswebsite-2000x1333.jpg",
-                "caption": "Type caption here",
+                "caption": "Perspective",
                 "active": false
               },
               {
@@ -2104,7 +2050,7 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/sights-and-sounds-of-the-sixties-2000x1545-800x618.jpg",
                 "image": "@PROJECT_PATH@/assets/images/sights-and-sounds-of-the-sixties-2000x1545.jpg",
-                "caption": "Type caption here",
+                "caption": "Sights and Sounds of the Sixties",
                 "active": false
               },
               {
@@ -2114,7 +2060,7 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/mdcps-logo-nicolas-dussiaswebsite-2000x1428-800x571.jpg",
                 "image": "@PROJECT_PATH@/assets/images/mdcps-logo-nicolas-dussiaswebsite-2000x1428.jpg",
-                "caption": "Type caption here",
+                "caption": "MDCPS Logo",
                 "active": false
               },
               {
@@ -2124,7 +2070,7 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/king-kong-nicolas-dussiaswebsite-2000x1546-800x618.jpg",
                 "image": "@PROJECT_PATH@/assets/images/king-kong-nicolas-dussiaswebsite-2000x1546.jpg",
-                "caption": "Type caption here",
+                "caption": "King Kong: Fight For Peace",
                 "active": false
               },
               {
@@ -2134,7 +2080,7 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/nicolas-dussias-1website-2000x1544-800x617.jpg",
                 "image": "@PROJECT_PATH@/assets/images/nicolas-dussias-1website-2000x1544.jpg",
-                "caption": "Type caption here",
+                "caption": "Batsymbol Redraw",
                 "active": false
               },
               {
@@ -2144,7 +2090,7 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/nicolas-dussias-flash-logowebsite-2000x1600-800x640.jpg",
                 "image": "@PROJECT_PATH@/assets/images/nicolas-dussias-flash-logowebsite-2000x1600.jpg",
-                "caption": "Type caption here",
+                "caption": "The Flash Logo Redraw",
                 "active": false
               },
               {
@@ -2154,7 +2100,7 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/nicolas-dussias-hulk-handwebsite-2000x2000-800x800.jpg",
                 "image": "@PROJECT_PATH@/assets/images/nicolas-dussias-hulk-handwebsite-2000x2000.jpg",
-                "caption": "Type caption here",
+                "caption": "Hulk logo Redraw",
                 "active": false
               },
               {
@@ -2164,7 +2110,7 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/nicolas-dussias-marvel-symbolswebsite-2000x1973-800x789.jpg",
                 "image": "@PROJECT_PATH@/assets/images/nicolas-dussias-marvel-symbolswebsite-2000x1973.jpg",
-                "caption": "Type caption here",
+                "caption": "Marvel Icons Redraw",
                 "active": false
               },
               {
@@ -2174,22 +2120,12 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/nicolas-dussias-the-avengerswebsite-2000x982-800x392.jpg",
                 "image": "@PROJECT_PATH@/assets/images/nicolas-dussias-the-avengerswebsite-2000x982.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Animated",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/nicolas-dussias-the-avengerswebsite-2000x982-800x392.jpg",
-                "image": "@PROJECT_PATH@/assets/images/nicolas-dussias-the-avengerswebsite-2000x982.jpg",
-                "caption": "Type caption here",
+                "caption": "The Avengers Logo Redraw",
                 "active": true
               }
             ],
             "spacing": "1",
-            "showText": false,
+            "showText": true,
             "filter": false,
             "bgColor": "#000000",
             "filterBgColor": false,
@@ -2199,6 +2135,81 @@
           "_anchor": "gallery1-1t",
           "articleLayout": false,
           "allItem": "All"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, p": {
+              "color": "#fff"
+            },
+            ".lead": {
+              "color": "#ffffff"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box8",
+          "_anchor": "msg-box8-1w",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1125.jpg",
+            "bgColor": "#F2F2F2",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showText": true,
+            "showButton": false
+          },
+          "title": "Coming Soon!",
+          "text": "More stuff will be here in the near future!",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts1",
+          "_anchor": "contacts1-1v",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#000000",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#3C3C3C"
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/nicksketch-signature-128x90.png",
+              "width": 128,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "text1": "<font color=\"#7c7c7c\" face=\"Montserrat, sans-serif\" size=\"3\"><span style=\"letter-spacing: -1px; line-height: 20px;\"><b>ADRESS:</b></span></font><br><br>14974 SW 41st Lane<br>Miami, Florida 33185<br>",
+          "text2": "<strong>Contacts</strong><br>EMAIL: ndussias@miamiartsstudio.com<br>CELL: 786-458-6948",
+          "text3": "<strong>Links</strong><br>School Website<br>Class Website<br><br>"
         }
       ]
     },
@@ -2285,14 +2296,14 @@
             "transparent": false,
             "sticky": true,
             "logo": true,
-            "showBrand": false,
+            "showBrand": true,
             "collapsed": true,
             "hideButtons": true
           },
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/signature-384x128.png",
+              "src": "@PROJECT_PATH@/assets/images/nicksketch-signature-180x128.png",
               "height": 128,
               "alt": "Mobirise",
               "link": "Home.html",
@@ -2305,8 +2316,8 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">MOBIRISE</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"introduction.html\" aria-expanded=\"false\" target=\"_blank\"><span style=\"font-weight: normal;\">INTRODUCTION</span></a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Biography.html\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\"><span style=\"font-weight: normal;\">APPLICATIONS</span></a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"photoshop.html\">Photoshop</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"illustrator.html\">Illustrator</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"illustrator.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Office Suite</a><div class=\"dropdown-menu dropdown-submenu\"><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"word.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Word</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Discussit 6</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"powerpoint.html\" aria-expanded=\"false\">Powerpoint</a></div></div></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Biography.html\" aria-expanded=\"false\"><span style=\"font-weight: normal;\">CREDENTIALS</span></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Biography.html\" aria-expanded=\"false\"><span style=\"font-weight: normal;\">REFERENCES</span></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"Contacts.html\">CONTACT</a></li>"
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Nicolas Dussias</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"introduction.html\" aria-expanded=\"false\" target=\"_blank\"><span style=\"font-weight: normal;\">INTRODUCTION</span></a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Biography.html\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\"><span style=\"font-weight: normal;\">APPLICATIONS</span></a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"photoshop.html\">Photoshop</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Biography.html\" aria-expanded=\"false\"><span style=\"font-weight: normal;\">CREDENTIALS</span></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Biography.html\" aria-expanded=\"false\"><span style=\"font-weight: normal;\">REFERENCES</span></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"gallery.html\" aria-expanded=\"false\"><span style=\"font-weight: normal;\">GALLERY</span></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"Contacts.html\">CONTACT</a></li>"
         },
         {
           "_styles": {
@@ -2349,12 +2360,12 @@
           "_name": "footer1",
           "_anchor": "footer1-w",
           "_params": {
-            "paddingTop": 2,
-            "paddingBottom": 2,
+            "paddingTop": "4",
+            "paddingBottom": "1",
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#000000",
+            "bgColor": "#eb6b56",
             "bgColorRadio": true,
             "overlay": true,
             "overlayOpacity": 0.8,
@@ -2376,7 +2387,7 @@
           "_params": {
             "paddingTop": "4",
             "paddingBottom": "6",
-            "bgColor": "#07294e"
+            "bgColor": "#04111e"
           },
           "text1": "<p>My name is Nicolas Dussias, and this is my website. Here, you can see some of my work, which programs I'm expirienced with and my goals and interests. It's kind of empty right now, but it will have more in the coming future. I've been learning a lot about digital design and how to use programs like Photoshop and Illustrator for a while now at school so I have a pretty good understanding of this stuff. So I've made this online portfolio to showcase some of my expirience, work, goals and programs that I have learned.</p>",
           "text2": "Some of which are Adobe Photoshop, Adobe Illustator and the Office Sweep. Photoshop is what I'm most skilled at. On this site, you can see some of my work in the gallery. Most of what I know comes from the Tech Production magnet program at Miami Arts Studio at Zelda Glazier. Prior to joining I had little to no expirience in digital design. That was about One and a half years ago, and when I first started I was confused. Now, everything makes a lot more sence to me, but that doesn't mean it doesn't come&nbsp;",
@@ -2389,8 +2400,8 @@
           "_name": "contacts1",
           "_anchor": "contacts1-1v",
           "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
+            "paddingTop": "1",
+            "paddingBottom": "1",
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
@@ -2402,9 +2413,13 @@
           },
           "logo": {
             "image": {
-              "src": "@THEME_PATH@/components/_images/logo.png",
+              "src": "@PROJECT_PATH@/assets/images/nicksketch-signature-128x90.png",
               "width": 128,
-              "active": true
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-contacts1",
@@ -2412,9 +2427,9 @@
               "size": 0
             }
           },
-          "text1": "<font color=\"#7c7c7c\" face=\"Montserrat, sans-serif\" size=\"3\"><span style=\"letter-spacing: -1px; line-height: 20px;\"><b>ADRESS:</b></span></font><br><font color=\"#7c7c7c\" face=\"Montserrat, sans-serif\" size=\"3\"><span style=\"letter-spacing: -1px; line-height: 20px;\"><b>14974 SW 41st lane miami, florida 33185</b></span></font>",
+          "text1": "<font color=\"#7c7c7c\" face=\"Montserrat, sans-serif\" size=\"3\"><span style=\"letter-spacing: -1px; line-height: 20px;\"><b>ADRESS:</b></span></font><br><br>14974 SW 41st Lane<br>Miami, Florida 33185<br>",
           "text2": "<strong>Contacts</strong><br>EMAIL: ndussias@miamiartsstudio.com<br>CELL: 786-458-6948",
-          "text3": "<strong>Links</strong><br>SCHOOL WEBSITE;http://mas.dadeschools.net/<br>CLASS WEBSITE:&nbsp;http://mas.dadeschools.net/pate%20class%20website/index.html"
+          "text3": "<strong>Links</strong><br>School Website<br>Class Website<br><br>"
         }
       ]
     }
