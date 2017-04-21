@@ -569,6 +569,12 @@ h6,
 #social-buttons4-2f .btn-social {
   color: #fff;
 }
+#msg-box5-2i H3 {
+  color: #ffffff;
+}
+#msg-box5-2i P {
+  color: #ffffff;
+}
 
 
 #menu-15 .hide-buttons .nav-btn {
@@ -1058,11 +1064,11 @@ h6,
 #header3-1u H3 {
   color: #ffffff;
 }
-#msg-box8-1w .mbr-section-title,
-#msg-box8-1w p {
-  color: #fff;
+#header3-2r .mbr-section-title,
+#header3-2r .mbr-section-subtitle {
+  text-align: center;
 }
-#msg-box8-1w .lead {
+#header3-2r H3 {
   color: #ffffff;
 }
 
@@ -1243,4 +1249,80 @@ h6,
 #msg-box8-2d .mbr-section-title {
   color: #ffffff;
   font-size: 60px;
+}
+#msg-box8-2v .mbr-section-title,
+#msg-box8-2v p {
+  color: #fff;
+}
+#msg-box8-2v .mbr-section-title {
+  font-size: 60px;
+}
+
+#menu-2j .hide-buttons .nav-btn {
+  display: none !important;
+}
+#menu-2j .navbar-caption {
+  color: #ffffff;
+}
+#menu-2j .navbar-toggler {
+  color: #ffffff;
+}
+#menu-2j .link,
+#menu-2j .dropdown-item {
+  color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+}
+#menu-2j .link {
+  font-size: 0.85rem;
+}
+#menu-2j .dropdown-item,
+#menu-2j .nav-dropdown-sm .link {
+  font-size: 0.921rem;
+}
+#menu-2j .link:hover,
+#menu-2j .dropdown-item:hover,
+#menu-2j .link:focus,
+#menu-2j .dropdown-item:focus {
+  color: #c0a375;
+}
+#menu-2j .link[aria-expanded="true"],
+#menu-2j .dropdown-menu {
+  background: #000000;
+}
+#menu-2j .nav-dropdown-sm .link:focus,
+#menu-2j .nav-dropdown-sm .link:hover,
+#menu-2j .nav-dropdown-sm .dropdown-item:focus,
+#menu-2j .nav-dropdown-sm .dropdown-item:hover {
+  background: #000000!important;
+}
+#menu-2j .navbar,
+#menu-2j .nav-dropdown-sm,
+#menu-2j .nav-dropdown-sm .link[aria-expanded="true"],
+#menu-2j .nav-dropdown-sm .dropdown-menu {
+  background: #000000;
+}
+#menu-2j .bg-color.transparent .link {
+  color: #ffffff;
+  transition: none;
+}
+#menu-2j .bg-color.transparent.opened .link {
+  transition: color 0.2s ease-in-out;
+}
+#menu-2j .bg-color.transparent.opened .link:hover,
+#menu-2j .bg-color.transparent.opened .link:focus {
+  color: #c0a375;
+}
+#menu-2j .link[aria-expanded="true"],
+#menu-2j .dropdown-item[aria-expanded="true"] {
+  color: #c0a375!important;
+}
+#menu-2j.mbr-navbar--stuck .mbr-navbar__section {
+  background: #2c2c2c;
+}
+#menu-2j .mbr-navbar__hamburger {
+  color: #ffffff;
+}
+#menu-2j .close-icon::before,
+#menu-2j .close-icon::after {
+  background-color: #ffffff;
 }
