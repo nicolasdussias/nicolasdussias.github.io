@@ -1,9 +1,9 @@
 {
   "settings": {
-    "currentPage": "index.html",
+    "currentPage": "premire.html",
     "versionFirst": "3.8.3",
-    "uniqCompNum": 121,
-    "versionPublish": "3.12.1",
+    "uniqCompNum": 122,
+    "versionPublish": "3.11.1",
     "name": "My Site",
     "theme": {
       "name": "mobirise3",
@@ -20,8 +20,7 @@
         "textFont": "Raleway",
         "isRoundedButtons": false,
         "isAnimatedOnScroll": true,
-        "isScrollToTopButton": false,
-        "isRtl": false
+        "isScrollToTopButton": false
       }
     },
     "path": "@PROJECT_PATH@",
@@ -3367,6 +3366,38 @@
           "title": "What Makes Me a Digital Artist",
           "text": "",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://www.youtube.com/watch?v=NEqipw7s0_U\" data-toolbar=\"-mbrBtnMove\">LINK</a> "
+        },
+        {
+          "_inherit": "header1",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header4",
+          "_anchor": "header4-3d",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": false,
+            "showArrow": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#a07e49",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "width": 1280,
+              "height": 720,
+              "url": "https://www.youtube.com/embed/3wfBz7UH0dw?rel=0&amp;showinfo=0&autoplay=0&loop=0"
+            },
+            "bgVideoRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#000",
+            "contentAlign": "right",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true
+          },
+          "title": "A Thousand Million Reasons",
+          "text": "",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://www.youtube.com/watch?v=3wfBz7UH0dw\" data-toolbar=\"-mbrBtnMove\">LINK</a> "
         },
         {
           "_tags": [
