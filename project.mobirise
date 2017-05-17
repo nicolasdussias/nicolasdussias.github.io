@@ -2,7 +2,7 @@
   "settings": {
     "currentPage": "premire.html",
     "versionFirst": "3.8.3",
-    "uniqCompNum": 124,
+    "uniqCompNum": 125,
     "versionPublish": "3.11.1",
     "name": "My Site",
     "theme": {
@@ -3428,6 +3428,36 @@
           "title": "The Legend of the Rise of the Dawn of the Projects(rough draft)",
           "text": "Intro with background video and color overlay. Text and buttons are aligned to right. Mobirise helps you cut down development time by providing you with a flexible website editor with a drag and drop interface.",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://www.youtube.com/watch?v=imA9nyNgQos\" data-toolbar=\"-mbrBtnMove\">LINK</a> "
+        },
+        {
+          "_inherit": "header1",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header4",
+          "_anchor": "header4-3g",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": false,
+            "showArrow": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#a07e49",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#000",
+            "contentAlign": "right",
+            "showTitle": true,
+            "showText": false,
+            "showButtons": true
+          },
+          "title": "The Legend of the Rise of the Dawn of the Projects",
+          "text": "Intro with background video and color overlay. Text and buttons are aligned to right. Mobirise helps you cut down development time by providing you with a flexible website editor with a drag and drop interface.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://www.youtube.com/watch?v=9WD5ytUZJAg\" data-toolbar=\"-mbrBtnMove\">LINK</a> "
         },
         {
           "_tags": [
