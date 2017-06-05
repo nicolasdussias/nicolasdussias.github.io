@@ -2,7 +2,7 @@
   "settings": {
     "currentPage": "premire.html",
     "versionFirst": "3.8.3",
-    "uniqCompNum": 125,
+    "uniqCompNum": 126,
     "versionPublish": "3.11.1",
     "name": "My Site",
     "theme": {
@@ -312,7 +312,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Nicolas Dussias</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"introduction.html\" aria-expanded=\"false\" target=\"_blank\"><span style=\"font-weight: normal;\">INTRODUCTION</span></a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Biography.html\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\"><span style=\"font-weight: normal;\">APPLICATIONS</span></a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"photoshop.html\">Photoshop</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"premire.html\">Premire</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"illustrator.html\">Illustrator</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"photoshop.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Office Suite</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"word.html\">Word</a></div></div></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"biography.html\" aria-expanded=\"false\"><span style=\"font-weight: normal;\">CREDENTIALS</span></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"biography.html\" aria-expanded=\"false\"><span style=\"font-weight: normal;\">REFERENCES</span></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"gallery.html\" aria-expanded=\"false\"><span style=\"font-weight: normal;\">GALLERY</span></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"Contacts.html\">CONTACT</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"introduction.html\" aria-expanded=\"false\" target=\"_blank\"><span style=\"font-weight: normal;\">INTRODUCTION</span></a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Biography.html\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\"><span style=\"font-weight: normal;\">APPLICATIONS</span></a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"photoshop.html\">Photoshop</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"premire.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Premire</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"premire.html#header4-2p\">Believer</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"premire.html#header4-2w\">What Makes Me a Digital Artist</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"premire.html#header4-2x\">A Thousand Million Reasons<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"premire.html#header4-3f\">The Legend of the Rise of the Dawn of the Projects<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"premire.html#msg-box8-3h\">May 31st Multi Media Night Intros<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\"></a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"illustrator.html\">Illustrator</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"photoshop.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Office Suite</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"word.html\">Word</a></div></div></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"biography.html\" aria-expanded=\"false\"><span style=\"font-weight: normal;\">CREDENTIALS</span></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"biography.html\" aria-expanded=\"false\"><span style=\"font-weight: normal;\">REFERENCES</span></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"gallery.html\" aria-expanded=\"false\"><span style=\"font-weight: normal;\">GALLERY</span></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"Contacts.html\">CONTACT</a></li>"
         },
         {
           "_tags": [
@@ -3269,7 +3269,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Nicolas Dussias</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"introduction.html\" aria-expanded=\"false\" target=\"_blank\"><span style=\"font-weight: normal;\">INTRODUCTION</span></a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Biography.html\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\"><span style=\"font-weight: normal;\">APPLICATIONS</span></a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"photoshop.html\">Photoshop</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"premire.html\">Premire</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"illustrator.html\">Illustrator</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"photoshop.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Office Suite</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"word.html\">Word</a></div></div></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"biography.html\" aria-expanded=\"false\"><span style=\"font-weight: normal;\">CREDENTIALS</span></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"biography.html\" aria-expanded=\"false\"><span style=\"font-weight: normal;\">REFERENCES</span></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"gallery.html\" aria-expanded=\"false\"><span style=\"font-weight: normal;\">GALLERY</span></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"Contacts.html\">CONTACT</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"introduction.html\" aria-expanded=\"false\" target=\"_blank\"><span style=\"font-weight: normal;\">INTRODUCTION</span></a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Biography.html\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\"><span style=\"font-weight: normal;\">APPLICATIONS</span></a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"photoshop.html\">Photoshop</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"premire.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Premire</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"premire.html#header4-2p\">Believer</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"premire.html#header4-2w\">What Makes Me a Digital Artist</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"premire.html#header4-2x\">A Thousand Million Reasons<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"premire.html#header4-3f\">The Legend of the Rise of the Dawn of the Projects<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"premire.html#msg-box8-3h\">May 31st Multi Media Night Intros<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\"></a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"illustrator.html\">Illustrator</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"photoshop.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Office Suite</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"word.html\">Word</a></div></div></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"biography.html\" aria-expanded=\"false\"><span style=\"font-weight: normal;\">CREDENTIALS</span></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"biography.html\" aria-expanded=\"false\"><span style=\"font-weight: normal;\">REFERENCES</span></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"gallery.html\" aria-expanded=\"false\"><span style=\"font-weight: normal;\">GALLERY</span></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"Contacts.html\">CONTACT</a></li>"
         },
         {
           "_inherit": "header1",
@@ -3457,7 +3457,41 @@
           },
           "title": "The Legend of the Rise of the Dawn of the Projects",
           "text": "Intro with background video and color overlay. Text and buttons are aligned to right. Mobirise helps you cut down development time by providing you with a flexible website editor with a drag and drop interface.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://www.youtube.com/watch?v=9WD5ytUZJAg\" data-toolbar=\"-mbrBtnMove\">LINK</a> "
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">LINK</a> "
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, p": {
+              "color": "#fff"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box8",
+          "_anchor": "msg-box8-3h",
+          "_params": {
+            "paddingTop": "2",
+            "paddingBottom": 3,
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/title-2000x1125.jpg",
+            "bgColor": "#F2F2F2",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showText": false,
+            "showButton": true
+          },
+          "title": "May 31st Multi Media Night Intros<br>",
+          "text": "<p>Article header with background image and parallax effect.</p>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://www.youtube.com/watch?v=zWgICqQb2LE&amp;list=PLC0IYHFK3OEd5dSCFMiMqVVdrxvX9MXoB\" data-toolbar=\"-mbrBtnMove\">LINK</a>"
         },
         {
           "_tags": [

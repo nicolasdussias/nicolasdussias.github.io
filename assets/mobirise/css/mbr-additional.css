@@ -1370,3 +1370,7 @@ h6,
 #menu-2j .close-icon::after {
   background-color: #ffffff;
 }
+#msg-box8-3h .mbr-section-title,
+#msg-box8-3h p {
+  color: #fff;
+}
